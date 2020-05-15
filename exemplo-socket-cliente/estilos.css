@@ -13,7 +13,7 @@ h1 {
 }
 
 #conteiner {
-    width: 80%;
+    width: 90%;
     margin: auto;
     display: flex;
 }
@@ -59,9 +59,20 @@ h1 {
 
 #usuarios {
     width: 40%;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    padding: 0px 10px;
 }
 
 #usuarios h2 {
     font-family: 'Luckiest Guy', cursive;
     color: #34495e;
+}
+
+#listaUsuarios {
+    font-weight: bold;
+}
+
+#listaUsuarios p {
+    margin: 2px;
 }
